@@ -24,6 +24,6 @@ let form = document.querySelector("form");
     let list = document.getElementById("faultyList");
 
     event.preventDefault();
-    formSumbission (document, list, pilot, copilot, fuelLevel, cargoLevel);
+    formSumbission(document, list, pilot, copilot, fuelLevel, cargoLevel);
    });
 }); 
